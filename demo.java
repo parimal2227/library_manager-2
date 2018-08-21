@@ -450,7 +450,7 @@ public class demo {
 		else
 		{
 	System.out.println("Enter the Title of the book you want to search\n");
-	String st=sc.nextLine();
+	
 	String st2=sc.nextLine();
 	
 	System.out.println("Enter the Author of the book you want to search\n");
@@ -503,7 +503,6 @@ public class demo {
 		else
 		{
 	  System.out.println("Enter the name of members you want to search\n");
-	  String mem=sc.nextLine();
 	  String st=sc.nextLine();
 	  
 	   Set set_member = member_map.entrySet();
